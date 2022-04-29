@@ -1,0 +1,25 @@
+class Add extends StatefulWidget{
+  @override
+  AddTwo createState() => AddTwo();  
+}
+
+class AddTwo extends StatefulWidget{
+  @override
+  
+  TextFeild(
+    decoration, InputDecoration(
+      border: InputBorder.none,
+      labelText:'Enter Number 1:'
+    ),
+  );
+
+  TextFeild(
+    decoration, InputDecoration(
+      border: InputBorder.none,
+      labelText:'Enter Number 2:'
+    ),
+  );
+
+  
+
+}
